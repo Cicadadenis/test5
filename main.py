@@ -22,7 +22,7 @@ from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
 from aiogram.filters import StateFilter
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-
+import os
 
 from dotenv import load_dotenv
 
