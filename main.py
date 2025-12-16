@@ -24,11 +24,10 @@ from aiogram.filters import StateFilter
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 import os
 
+import os
 from dotenv import load_dotenv
 
-# загружаем .env
 load_dotenv()
-
 TOKEN = os.getenv("TOKEN")
 if not TOKEN:
     raise RuntimeError("❌ TOKEN не задан в .env")
